@@ -12,6 +12,8 @@ namespace FrozenDictionaryType
         private static readonly FrozenDictionary<string, string> staticData =
             LoadStaticData().ToFrozenDictionary();
 
+        // lly, FrozenSet<int> a = new List<int>(){1,1,2,2,3,4,5,5}.ToFrozenSet(); it's just create immutable set or readonly set like above
+
         private static Dictionary<string, string> LoadStaticData()
         {
             return new Dictionary<string, string>() { { "Key1", "Value1" }, { "Key2", "Value2" }, { "Key3", "Value3" } };
