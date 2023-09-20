@@ -1,0 +1,6 @@
+@AuthChangeInDotNet8_HostAddress = http://localhost:5216
+
+GET {{AuthChangeInDotNet8_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
