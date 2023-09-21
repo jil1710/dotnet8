@@ -1,0 +1,6 @@
+@KeyedDIServices_HostAddress = http://localhost:5196
+
+GET {{KeyedDIServices_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
