@@ -13,8 +13,10 @@ namespace InterfaceSerialization
                 Brand = "BMV Benz",
                 Model = "AMG-6HG"
             };
+            var options = new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower };
+            
+            var serializedValue = JsonSerializer.Serialize(detail,options); // ex : JsonSerializer.Serialize(new { PropertyName = "value" }, options); // { "property_name" : "value" }
 
-            var serializedValue = JsonSerializer.Serialize(detail);
             Console.WriteLine(serializedValue);
 
             Console.ReadKey();
