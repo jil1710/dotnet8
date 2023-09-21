@@ -1,0 +1,6 @@
+@FormBindingInMinimalApi_HostAddress = http://localhost:5109
+
+GET {{FormBindingInMinimalApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
