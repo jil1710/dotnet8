@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34112.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrozenDictionaryType", "FrozenDictionaryType\FrozenDictionaryType.csproj", "{54BE457A-3A29-4E3A-97D8-47ADCBFA3C7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrozenDictionaryType", "FrozenDictionaryType\FrozenDictionaryType.csproj", "{54BE457A-3A29-4E3A-97D8-47ADCBFA3C7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSerialization", "InterfaceSerialization\InterfaceSerialization.csproj", "{BEB76E0F-6DDB-4D08-A292-5E196BD9258D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSerialization", "InterfaceSerialization\InterfaceSerialization.csproj", "{BEB76E0F-6DDB-4D08-A292-5E196BD9258D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBestPracticesInDotnet8", "ListBestPracticesInDotnet8\ListBestPracticesInDotnet8.csproj", "{E9365E20-D172-4727-B071-4414126FE296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListBestPracticesInDotnet8", "ListBestPracticesInDotnet8\ListBestPracticesInDotnet8.csproj", "{E9365E20-D172-4727-B071-4414126FE296}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthChangeInDotNet8", "AuthChangeInDotNet8\AuthChangeInDotNet8.csproj", "{A220F918-890E-444E-8E50-9C2905194322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthChangeInDotNet8", "AuthChangeInDotNet8\AuthChangeInDotNet8.csproj", "{A220F918-890E-444E-8E50-9C2905194322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundTaskFixedInDotnet8", "BackgroundTaskFixedInDotnet8\BackgroundTaskFixedInDotnet8.csproj", "{6F5859DF-9EC2-41C4-B04D-E48D106D97A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackgroundTaskFixedInDotnet8", "BackgroundTaskFixedInDotnet8\BackgroundTaskFixedInDotnet8.csproj", "{6F5859DF-9EC2-41C4-B04D-E48D106D97A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeProviderClass", "TimeProviderClass\TimeProviderClass.csproj", "{B76EC29C-A1C6-457D-9FE8-54D386EE5130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeProviderClass", "TimeProviderClass\TimeProviderClass.csproj", "{B76EC29C-A1C6-457D-9FE8-54D386EE5130}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuiltInGuardClauses", "BuiltInGuardClauses\BuiltInGuardClauses.csproj", "{1BC34AFD-E5EF-4B16-8A55-37F2FF8CC634}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuiltInGuardClauses", "BuiltInGuardClauses\BuiltInGuardClauses.csproj", "{1BC34AFD-E5EF-4B16-8A55-37F2FF8CC634}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomImprovements", "RandomImprovements\RandomImprovements.csproj", "{071A6A39-511A-4F31-8DC8-12EF45847461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomImprovements", "RandomImprovements\RandomImprovements.csproj", "{071A6A39-511A-4F31-8DC8-12EF45847461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New.In.System.text.Json", "New.In.System.text.Json\New.In.System.text.Json.csproj", "{44F77044-C7CA-4DE3-A1C2-4BB580F19495}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{071A6A39-511A-4F31-8DC8-12EF45847461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{071A6A39-511A-4F31-8DC8-12EF45847461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{071A6A39-511A-4F31-8DC8-12EF45847461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F77044-C7CA-4DE3-A1C2-4BB580F19495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F77044-C7CA-4DE3-A1C2-4BB580F19495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F77044-C7CA-4DE3-A1C2-4BB580F19495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F77044-C7CA-4DE3-A1C2-4BB580F19495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
