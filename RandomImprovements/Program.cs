@@ -13,7 +13,10 @@ namespace RandomImprovements
             // This will give me random value from string here i passing 1 it give 1 ramdom value if i pass 2 then two random value and so on..
             var getRandomValueFromList = RandomNumberGenerator.GetItems(readOnlyString,1);
 
+            var anotherWayAboveExample = Random.Shared.GetItems(readOnlyString,1);
+
             Console.WriteLine(JsonSerializer.Serialize(getRandomValueFromList));
+            Console.WriteLine(JsonSerializer.Serialize(anotherWayAboveExample));
 
             // Second feature
             var span = new Span<string>(list.ToArray());
