@@ -308,6 +308,27 @@
 
     - Click here to see demo : [Form Binding in minimal Api](https://github.com/jil1710/dotnet8/tree/master/FormBindingInMinimalApi)
 
+ 
+- ### **Short Circuiting in .net 8 :**
+
+    .NET 8 has a new feature for short circuiting routes.
+
+    When routing matches an endpoint it typically lets the rest of the middleware pipeline run before invoking the endpoint logic. If that's not necessary or desirable, there's a new option that will cause routing to invoke the endpoint logic immediately and then end the request. This can be used to efficiently respond to requests that don't require additional features like authentication, CORS, etc., such as requests for robots.txt or favicon.ico.
+
+    For Example :
+    ```csharp
+        app.MapGet("/health", () => "Hello World").ShortCircuit();
+    ```
+    You can also use the MapShortCircuit method to setup endpoints that send a quick 404 or other status code for matched resources that you don't want to further process.
+
+    ```csharp
+        app.MapShortCircuit(404, "robots.txt", "favicon.ico");
+    ```
+
+    - Click here to see demo : [Short Circuiting in .Net 8](https://github.com/jil1710/dotnet8/tree/master/ShoetCircuitInDotNet8)
+ 
+  
+
 
 
     
