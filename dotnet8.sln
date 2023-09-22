@@ -19,15 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuiltInGuardClauses", "Buil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomImprovements", "RandomImprovements\RandomImprovements.csproj", "{071A6A39-511A-4F31-8DC8-12EF45847461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New.In.System.text.Json", "New.In.System.text.Json\New.In.System.text.Json.csproj", "{44F77044-C7CA-4DE3-A1C2-4BB580F19495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "New.In.System.text.Json", "New.In.System.text.Json\New.In.System.text.Json.csproj", "{44F77044-C7CA-4DE3-A1C2-4BB580F19495}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyedDIServices", "KeyedDIServices\KeyedDIServices.csproj", "{4EF032EA-C306-4289-B5B6-02421A41B48C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyedDIServices", "KeyedDIServices\KeyedDIServices.csproj", "{4EF032EA-C306-4289-B5B6-02421A41B48C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormBindingInMinimalApi", "FormBindingInMinimalApi\FormBindingInMinimalApi.csproj", "{7F789323-C340-48EA-B8C7-2558837E2984}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormBindingInMinimalApi", "FormBindingInMinimalApi\FormBindingInMinimalApi.csproj", "{7F789323-C340-48EA-B8C7-2558837E2984}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceMethodCallWithInterseptor", "ReplaceMethodCallWithInterseptor\ReplaceMethodCallWithInterseptor.csproj", "{65662FE7-4813-4221-B927-A0A71D29B90E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceMethodCallWithInterseptor", "ReplaceMethodCallWithInterseptor\ReplaceMethodCallWithInterseptor.csproj", "{65662FE7-4813-4221-B927-A0A71D29B90E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationTypesInDotnet8", "ValidationTypesInDotnet8\ValidationTypesInDotnet8.csproj", "{A973309C-B382-4B2C-9974-04D96DDCB6C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationTypesInDotnet8", "ValidationTypesInDotnet8\ValidationTypesInDotnet8.csproj", "{A973309C-B382-4B2C-9974-04D96DDCB6C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoetCircuitInDotNet8", "ShoetCircuitInDotNet8\ShoetCircuitInDotNet8.csproj", "{958F558A-6F4A-4E9A-B562-F0DA90C65BDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{A973309C-B382-4B2C-9974-04D96DDCB6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A973309C-B382-4B2C-9974-04D96DDCB6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A973309C-B382-4B2C-9974-04D96DDCB6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958F558A-6F4A-4E9A-B562-F0DA90C65BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958F558A-6F4A-4E9A-B562-F0DA90C65BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958F558A-6F4A-4E9A-B562-F0DA90C65BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958F558A-6F4A-4E9A-B562-F0DA90C65BDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
