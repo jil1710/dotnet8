@@ -174,6 +174,21 @@
 
     - Click here to explore more in advanced : [What's new in System.Json.Text](https://devblogs.microsoft.com/dotnet/system-text-json-in-dotnet-8/)
 
+- ### **New Data Validation Attributes :**
+
+    - The DataAnnotations namespace, aimed specifically for validation in cloud-native services. The existing DataAnnotations validators are primarily used for validating user data, like form fields. However, the new attributes are meant to validate data, not entered by users, like configuration options. Apart from the new attributes, the RangeAttribute and RequiredAttribute types also received new properties.
+
+    - **RequiredAttribute.DisallowAllDefaultValues :** The attribute forces that structs for inequality with their default values.
+    - **RangeAttribute.MinimumIsExclusive & RangeAttribute.MaximumIsExclusive :** Specifies whether the allowable range includes its boundaries or not.
+    - **DataAnnotations.LengthAttribute :** Specifies the lower and upper limits for strings or collections using the Length attribute. For instance, the [Length(5, 100)] attribute specifies that a collection must have at least 5 elements and at most 100 elements.
+    - **DataAnnotations.Base64StringAttribute :** Validates a valid Base64 format.
+    - **DataAnnotations.AllowedValuesAttribute & DataAnnotations.DeniedValuesAttribute :** Specifies accepted allow lists or not allowed deny lists. For instance: [AllowedValues("red", "green", "blue")] or [DeniedValues("yellow", "purple")].
+
+    ![image](https://github.com/jil1710/dotnet8/assets/125335932/d648d439-02de-4489-ac09-f8b5301495d4)
+
+
+    - Click here to see demo : [New Validation Data Attributes](https://github.com/jil1710/dotnet8/tree/master/ValidationTypesInDotnet8)
+
 
 - ### **Improvement in random :**
 
