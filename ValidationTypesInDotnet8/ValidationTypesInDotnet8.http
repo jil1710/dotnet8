@@ -1,0 +1,6 @@
+@ValidationTypesInDotnet8_HostAddress = http://localhost:5069
+
+GET {{ValidationTypesInDotnet8_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
